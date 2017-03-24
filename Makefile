@@ -12,6 +12,7 @@ LIBS=-llapack -lblas
 #INCPATH=-I/opt/intel/mkl/include/
 #LIBS=-L/opt/intel/mkl/lib/intel64/ -lmkl_rt
 
+VPATH = librfn
 
 GPUINC=-I/usr/local/cuda/include
 GPULIB=-L/usr/local/cuda/lib64
