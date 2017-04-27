@@ -10,7 +10,7 @@ librfn has been written by [Thomas Unterthiner](http://www.bioinf.jku.at/people/
 
 # Installation
 
-1. (optional) Adjust the Makefile to your needs
+1. (optional) Adjust the Makefile to your needs under the `librfn` folder
 2. Type `make` to start the building process
 3. To use the python wrapper, just copy `rfn.py` and `librfn.so` into your  working directory.
 
