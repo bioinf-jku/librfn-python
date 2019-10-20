@@ -30,8 +30,8 @@ The following code trains an RFN on MNIST and plots the resulting filters::
     import numpy as np
     import matplotlib.pyplot as plt
 
-    from sklearn.datasets import fetch_mldata
-    mnist = fetch_mldata('MNIST original')
+    from sklearn.datasets import fetch_openml
+    mnist = fetch_openml('mnist_784')
     X = mnist['data'] / 255.0
 
     from rfn import *
